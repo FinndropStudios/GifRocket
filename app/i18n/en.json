@@ -1,0 +1,5 @@
+{
+    "Giphy_Api_Key": "Giphy's API Key",
+    "Giphy_Api_Key_Description": "API Keys can be obtained on the following site: `https://developers.giphy.com/dashboard/?create=true`",
+    "Giphy_Command_Description": "Generages a gif based upon the provided text."
+}

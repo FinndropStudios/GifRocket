@@ -1,14 +1,15 @@
 {
-    "id": "497f2898-7f55-424c-88af-f42c08a1b25d",
-    "name": "Giphy",
-    "nameSlug": "giphy",
-    "version": "0.1.2",
+    "id": "07d1aac2-0ae7-4a80-a68b-c6dc16bcefb2",
+    "name": "GifRocket (Giphy commands)",
+    "nameSlug": "gif-rocket",
+    "description": "Provides different commands to get gifs from giphy.com",
+    "version": "0.0.1",
     "requiredApiVersion": "^0.9.13",
-    "description": "Giphy Rocket.Chat App",
     "author": {
-        "name": "Bradley Hilton",
-        "support": "https://github.com/RocketChat/Rocket.Chat.Apps-ts-definitions/issues"
+        "name": "Manuel Bachl",
+        "homepage" : "https://finndrop.de/",
+        "support": "https://github.com/FinndropStudios/GifRocket/issues"
     },
-    "classFile": "Giphy.ts",
-    "iconFile": "icon.jpg"
+    "classFile": "GifRocketApp.ts",
+    "iconFile": "icon.png"
 }
