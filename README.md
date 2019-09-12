@@ -46,6 +46,9 @@ In your Rocket.Chat instance go to administration panel an click on "Integration
 Next, choose "Outgoing WebHook".  
 Now, on the webhook config screen, set the following values:
 
+##### Event Trigger
+Set this value to "Message Sent".
+
 ##### Enabled
 Set this value to true/yes
 
@@ -61,14 +64,18 @@ Set the trigger words on which the command should be fired. You have to set `!gi
 ##### URLs
 In this field you *must* enter `https://api.giphy.com/v1/`
 
-##### Send as
+##### Impersonate User (optional)
+
+If you want to use the above added user: set this value to true.
+
+##### Post as
 In this field you should define the user who sends the found gif. This is the user you defined earlier.
 
-##### Script active
-This value mus be true
+##### Script Enabled
+This value must be true
 
-##### GifRocket Script
-Now insert the complete code of the file `GifRocket.js` into this field.
+##### Script
+Now insert the complete code of the file [GifRocket.js](integration.prelegacy/GifRocket.js) into this field.
 
 #### Save changes
 Now click on "SAVE CHANGES" and you're done.
